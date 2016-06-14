@@ -25,3 +25,11 @@ Class trumps selectors on specificity!
 4. blue
 
 changing this to change some colors
+
+THIS FORCES PARENTS TO FIND FLOATED CHILDREN:
+
+main::after {
+  display: block;
+  content: '';
+  clear: both;
+}
