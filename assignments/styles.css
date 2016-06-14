@@ -55,24 +55,22 @@ img {
 }
 
 .image_number {
-  display: inline;
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: inline-block;
 }
 
 .image-caption {
-  display: inline-block;
-  
-}
-
-.image-caption ul {
-  display: inline-block;
+  display: inline;
+  position: absolute;
+  right: 0px;
 }
 
 .authors {
-  position: absolute;
-  padding: 0;
-  top: 0;
-  right: 0;
+  display: inline-block;
+  float: right;
+  padding: 4px;
+}
+
+.image-caption span {
+  display: inline-block;
+  margin-top: 12px;
 }
