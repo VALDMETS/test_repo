@@ -11,6 +11,10 @@ body {
   color: #AAA;
 
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 li {
   list-style: none;
 }
@@ -31,19 +35,44 @@ img {
   width: 30px;
   padding: 0px;
   border: 0;
+
 }
 .octocat {
   float: left;
   margin: 10px;
 }
 .image-footer {
+  display: block;
+  position: relative;
   height: 40px;
   width: 430px;
   border-bottom: 2px solid #DDD;
   border-radius 3px;
 }
 
+.image-number:before {
+  content: "#";
+}
+
 .image_number {
   display: inline;
-  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-caption {
+  display: inline-block;
+  
+}
+
+.image-caption ul {
+  display: inline-block;
+}
+
+.authors {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
 }
