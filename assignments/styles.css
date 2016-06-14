@@ -41,21 +41,24 @@ img {
   float: left;
   margin: 10px;
 }
+
 .image-footer {
   display: block;
   position: relative;
   height: 40px;
   width: 430px;
+  padding-bottom: 3px;
   border-bottom: 2px solid #DDD;
   border-radius 3px;
 }
 
-.image-number:before {
+.image-number::before {
   content: "#";
 }
 
-.image_number {
+.image-number {
   display: inline-block;
+  padding-top: 10px;
 }
 
 .image-caption {
